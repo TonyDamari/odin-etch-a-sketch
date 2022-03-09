@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch a Sketch</title>
+</head>
+<body>
+  
+
+   <div class="wrapper">
+    <div id="container"></div>
+    <h1 class="heading">Etch a Sketch</h1>
+    <div class="controls">
+        <div class="slider">
+            <p id="value">16 x 16</p>
+            <input type="range" name="range" min="4" max="64" value="16" step="4" id="range">
+        </div>
+        
+        <button id="clear">Clear Board</button>
+    </div>
+   </div>
+
+   <footer>&copy; Conceptual Life <span id="date"></span></footer>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
